@@ -15,7 +15,7 @@ ul {
 
 .textBoxOne {
     background-color: #faf087;
-    padding: 25px 0;
+    padding: 2px 0;
     padding-left: 12px;
     display: flex;
     flex-direction: row;
@@ -24,101 +24,96 @@ ul {
     border-bottom: 2px solid #fbf4ab;
 }
 
-.textBoxOne h1 {
+#submenuOptions {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
     font-family: LexendPeta-Regular;
-    font-size: 32px;
+    font-size: 14px;
+    letter-spacing: -1.5px;
+}
+
+#submenuOptions li {
+    padding-right: 12px;
+}
+
+.submenuTitle {
+    font-family: LexendPeta-Regular;
+    font-size: 14px;
     color: #6a2c70;
+    letter-spacing: -3px;
+    margin-right: 16px;
 }
 
 #contactMethods {
     font-family: Gayathri-Thin;
-    font-size: 28px;
+    font-size: 16px;
     display: flex;
     align-items: center;
-    margin-top: 17px;
+    margin-top: 5px;
+    margin-right: 36px;
 }
 
 #contactMethods li {
     display: inline-block;
-    margin-right: 36px;
+    margin-right: 16px;
 }
 
 .findUs,
-.callUs {
-    color: #6a2c70;
+.callUs,
+.facebookUs,
+.instagramUs {
+    filter: invert(18%) sepia(28%) saturate(4530%) hue-rotate(273deg) brightness(88%) contrast(84%);
 }
 
-.findUs a,
-.callUs a {
-    text-decoration: none !important;
-    color: #6a2c70;
+.findUs:hover {
+    filter: invert(47%) sepia(98%) saturate(350%) hue-rotate(98deg) brightness(89%) contrast(92%);
+    transition-duration: 0.5s;
 }
 
-.findUs:hover,
 .callUs:hover {
-    color: #c3aac5;
-    border-bottom: 3px solid #c3aac5;
-    border-right: 3px solid #c3aac5;
-    padding-right: 3px;
-    transition-duration: 0.6s;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
+    transition-duration: 0.5s;
 }
 
-.findUs a:hover,
-.callUs a:hover {
-    color: #e1d4e2;
-    transition-duration: 0.6s;
+.facebookUs:hover {
+    filter: invert(33%) sepia(9%) saturate(3250%) hue-rotate(183deg) brightness(98%) contrast(92%);
+    transition-duration: 0.5s;
 }
 
-.findUs::after {
-    content: url(img/googlemaps.svg);
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-left: 4px;
-}
-
-.callUs::after {
-    content: url(img/phone.svg);
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-left: 4px;
-    padding-right: 6px;
+.instagramUs:hover {
+    filter: invert(45%) sepia(70%) saturate(6748%) hue-rotate(315deg) brightness(88%) contrast(96%);
+    transition-duration: 0.5s;
 }
 
 #parallaxOne {
     background-image: url(img/weddingSetUp_1.jpg);
-    min-height: 500px;
+    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.textBoxTwo,
-.textBoxThree {
+.textBoxTwo {
     background-color: #faf087;
-    padding: 50px 0;
+    padding: 150px 0;
     padding-left: 12px;
-    outline: 3px solid #fdf9cf;
-    border-top: 2px solid #fbf4ab;
-    border-bottom: 2px solid #fbf4ab;
 }
 
 #parallaxTwo {
-    background-image: url(img/weddingSetUp_2.jpg);
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#parallaxThree {
     background-image: url(img/weddingSetUp_3.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+footer {
+    padding: 2em 0;
+    text-align: center;
+    background-color: #faf087;
+    font-family: Gayathri-Thin;
+    font-size: 18px;
 }
