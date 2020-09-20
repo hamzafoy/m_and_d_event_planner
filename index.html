@@ -17,8 +17,8 @@
         <ul id="submenuOptions">
             <li class="submenuTitle">M&D Event Planner</li>
             <li><a href="#about_us">About</a></li>
-            <li>Our Services</li>
-            <li>Gallery</li>
+            <li><a href="#ourServices">Our Services</a></li>
+            <li><a href="#photoGallery">Gallery</a></li>
         </ul>
         <ul id="contactMethods">
             <li class="findUs"><a
@@ -44,6 +44,8 @@
         </p>
     </section>
 
+    <div id="parallaxTwo"></div>
+
     <section class="textBoxOne">
         <h1 id="about_us">About Us</h1>
         <p>My name is Amina Mahamud, proud owner of M&D Event Planners. I grew up planning
@@ -63,10 +65,57 @@
         </p>
     </section>
 
+    <div id="parallaxOne"></div>
+
+    <section class="textBoxOne">
+        <h1 id="ourServices">Our Services</h1>
+        <img src="img/serviceList.png" id="serviceList" width="1000px">
+    </section>
+
     <div id="parallaxTwo"></div>
+
+    <section class="textBoxOne">
+
+        <h1 id="photoGallery">Photo Gallery</h1>
+        <div class="row">
+            <div class="column">
+                <img src="img/weddingImage_3.jpeg" alt="Husband & Wife on their wedding day." width="275px"
+                    height="225px" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="img/weddingImage_2.jpeg" alt="A bride seated regally in one our wedding event settings."
+                    width="275px" height="225px" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="img/weddingSetUp_4.jpeg"
+                    alt="Another wedding setup complete with a throne chair for the newlyweds." width="275px"
+                    height="225px" onclick="myFunction(this);">
+            </div>
+
+            <div class="column">
+                <img src="img/weddingSetUp_5.jpeg" alt="Our events exude resplendent grandeur."
+                    width="275px" height="225px" onclick="myFunction(this);">
+            </div>
+        </div>
+
+        <div class="show_tell_container">
+
+            <div id="imgtext" style="visibility:hidden"></div>
+
+            <span onclick="this.parentElement.style.display='none'" style="visibility:hidden"
+                class="closebtn">&times;</span>
+
+            <img id="expandedImg" style="width:85%">
+
+        </div>
+
+    </section>
+
+    <div id="parallaxOne"></div>
 
     <footer>&copy;2020 Hamza Foy Web Design</footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
