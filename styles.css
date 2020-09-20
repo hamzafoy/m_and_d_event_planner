@@ -40,7 +40,7 @@ ul {
 }
 
 #submenuOptions li {
-    padding-right: 8px;
+    padding-right: 7.5px;
 }
 
 #submenuOptions a {
@@ -53,12 +53,12 @@ ul {
     font-size: 9px;
     color: #6a2c70;
     letter-spacing: -2px;
-    margin-right: 12px;
+    margin-right: 9px;
 }
 
 #contactMethods {
     font-family: Gayathri-Thin;
-    font-size: 16px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     margin-top: 5px;
@@ -74,6 +74,8 @@ ul {
 .callUs,
 .facebookUs,
 .instagramUs {
+    height: 12px;
+    width: 12px;
     filter: invert(18%) sepia(28%) saturate(4530%) hue-rotate(273deg) brightness(88%) contrast(84%);
 }
 
@@ -131,10 +133,14 @@ ul {
 
 .textBoxOne p {
     text-align: justify;
-    padding: 0 20%;
+    padding: 0 10%;
     font-family: Gayathri-Thin;
     font-size: 18px;
     letter-spacing: 1.2px;
+}
+
+.photoGalleryPrimer {
+    text-align: center !important;
 }
 
 footer {
@@ -294,6 +300,8 @@ ul {
 .callUs,
 .facebookUs,
 .instagramUs {
+    height: 24px;
+    width: 24px;
     filter: invert(18%) sepia(28%) saturate(4530%) hue-rotate(273deg) brightness(88%) contrast(84%);
 }
 
