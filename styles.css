@@ -35,12 +35,12 @@ ul {
     list-style-type: none;
     align-items: center;
     font-family: LexendPeta-Regular;
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: -2px;
 }
 
 #submenuOptions li {
-    padding-right: 10px;
+    padding-right: 8px;
 }
 
 #submenuOptions a {
@@ -50,7 +50,7 @@ ul {
 
 .submenuTitle {
     font-family: LexendPeta-Regular;
-    font-size: 10px;
+    font-size: 9px;
     color: #6a2c70;
     letter-spacing: -2px;
     margin-right: 12px;
@@ -186,18 +186,19 @@ footer {
 #imgtext {
     margin: 2% 0;
     color: black;
-    font-size: 20px;
+    font-size: 14px;
     background: #e5e5e5;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     text-align: center;
-    padding: 1% 0;
-    font-family: Oswald-Light;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: Gayathri-Thin;
 }
 
 .closebtn {
     position: absolute;
-    top: 55px;
+    top: 28px;
     right: 7.5px;
     color: black;
     font-size: 35px;
@@ -207,7 +208,7 @@ footer {
 #serviceList {
     display: block;
     margin: 0 auto;
-    width: 430px;
+    width: 360px;
 }
 
 
@@ -409,13 +410,14 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     text-align: center;
-    padding: 1% 0;
-    font-family: Oswald-Light;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: Gayathri-Thin;
 }
 
 .closebtn {
     position: absolute;
-    top: 65px;
+    top: 80px;
     right: 55px;
     color: black;
     font-size: 35px;
