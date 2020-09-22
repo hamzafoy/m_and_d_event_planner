@@ -4,6 +4,7 @@
 @font-face {font-family: "Gayathri-Thin"; src: url("fonts/Gayathri-Thin.ttf"); }
 
 
+
 /*--- Base Styles ---*/
 
 body {
@@ -11,16 +12,18 @@ body {
 	padding: 0;
 }
 
+
 ul {
     margin: 0;
     padding: 0;
 }
 
 
+
 /*--- Class & ID Styles ---*/
 
 .menu {
-    background-color: #faf087;
+    background-color: #fccbcb;
     padding: 6px 0;
     padding-left: 12px;
     display: flex;
@@ -29,6 +32,7 @@ ul {
     outline: 3px solid #fdf9cf;
     border-bottom: 2px solid #fbf4ab;
 }
+
 
 #submenuOptions {
     display: flex;
@@ -39,14 +43,17 @@ ul {
     letter-spacing: -2px;
 }
 
+
 #submenuOptions li {
     padding-right: 7.5px;
 }
+
 
 #submenuOptions a {
     text-decoration: none;
     color: black;
 }
+
 
 .submenuTitle {
     font-family: LexendPeta-Regular;
@@ -55,6 +62,7 @@ ul {
     letter-spacing: -2px;
     margin-right: 9px;
 }
+
 
 #contactMethods {
     font-family: Gayathri-Thin;
@@ -65,10 +73,12 @@ ul {
     margin-right: 24px;
 }
 
+
 #contactMethods li {
     display: inline-block;
     margin-right: 16px;
 }
+
 
 .findUs,
 .callUs,
@@ -79,25 +89,30 @@ ul {
     filter: invert(18%) sepia(28%) saturate(4530%) hue-rotate(273deg) brightness(88%) contrast(84%);
 }
 
+
 .findUs:hover {
     filter: invert(47%) sepia(98%) saturate(350%) hue-rotate(98deg) brightness(89%) contrast(92%);
     transition-duration: 0.5s;
 }
+
 
 .callUs:hover {
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
     transition-duration: 0.5s;
 }
 
+
 .facebookUs:hover {
     filter: invert(33%) sepia(9%) saturate(3250%) hue-rotate(183deg) brightness(98%) contrast(92%);
     transition-duration: 0.5s;
 }
 
+
 .instagramUs:hover {
     filter: invert(45%) sepia(70%) saturate(6748%) hue-rotate(315deg) brightness(88%) contrast(96%);
     transition-duration: 0.5s;
 }
+
 
 #parallaxOne {
     background-image: url(img/weddingSetUp_1.jpg);
@@ -107,6 +122,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 #parallaxTwo {
     background-image: url(img/weddingSetUp_3.jpg);
@@ -118,8 +134,18 @@ ul {
 }
 
 
+#parallaxThree {
+    background-image: url(img/md_event_header.png);
+    min-height: 400px;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .textBoxOne {
-    background-color: #faf087;
+    background-color: #fccbcb;
     padding: 75px 0;
     padding-left: 12px;
 }
@@ -139,28 +165,38 @@ ul {
     letter-spacing: 1.2px;
 }
 
+
 .photoGalleryPrimer {
     text-align: center !important;
 }
 
-footer {
-    padding: 2em 0;
-    text-align: center;
-    background-color: #faf087;
-    font-family: Gayathri-Thin;
-    font-size: 18px;
+
+#serviceList {
+    display: block;
+    margin: 0 auto;
+    width: 360px;
 }
+
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .column {
     padding: 10px;
-  }
+}
+
 
 .column img {
     opacity: 0.8;
@@ -169,25 +205,17 @@ footer {
     height: 100px;
 }
 
+
 .column img:hover {
     opacity: 1;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .show_tell_container {
     position: relative;
     display: none;
 }
 
-#expandedImg {
-    display: flex;
-    margin: 0 auto;
-}
 
 #imgtext {
     margin: 2% 0;
@@ -202,6 +230,7 @@ footer {
     font-family: Gayathri-Thin;
 }
 
+
 .closebtn {
     position: absolute;
     top: 28px;
@@ -211,11 +240,27 @@ footer {
     cursor: pointer;
 }
 
-#serviceList {
-    display: block;
+
+#expandedImg {
+    display: flex;
     margin: 0 auto;
-    width: 360px;
 }
+
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+
+footer {
+    padding: 2em 0;
+    text-align: center;
+    background-color: #fccbcb;
+    font-family: Gayathri-Thin;
+    font-size: 18px;
+}
+
 
 
 /*---------------*/
@@ -225,17 +270,17 @@ footer {
 @media (min-width: 699px) {
 
 
-
 }
 
 @media (min-width: 1110px) {
-
+ 
 /*--- Base Styles ---*/
 
 body {
     margin: 0;
 	padding: 0;
 }
+
 
 ul {
     margin: 0;
@@ -246,7 +291,7 @@ ul {
 /*--- Class & ID Styles ---*/
 
 .menu {
-    background-color: #faf087;
+    background-color: #fccbcb;
     padding: 6px 0;
     padding-left: 12px;
     display: flex;
@@ -255,6 +300,7 @@ ul {
     outline: 3px solid #fdf9cf;
     border-bottom: 2px solid #fbf4ab;
 }
+
 
 #submenuOptions {
     display: flex;
@@ -265,14 +311,17 @@ ul {
     letter-spacing: -1.5px;
 }
 
+
 #submenuOptions li {
     padding-right: 12px;
 }
+
 
 #submenuOptions a {
     text-decoration: none;
     color: black;
 }
+
 
 .submenuTitle {
     font-family: LexendPeta-Regular;
@@ -281,6 +330,7 @@ ul {
     letter-spacing: -3px;
     margin-right: 16px;
 }
+
 
 #contactMethods {
     font-family: Gayathri-Thin;
@@ -291,10 +341,12 @@ ul {
     margin-right: 36px;
 }
 
+
 #contactMethods li {
     display: inline-block;
     margin-right: 16px;
 }
+
 
 .findUs,
 .callUs,
@@ -305,25 +357,30 @@ ul {
     filter: invert(18%) sepia(28%) saturate(4530%) hue-rotate(273deg) brightness(88%) contrast(84%);
 }
 
+
 .findUs:hover {
     filter: invert(47%) sepia(98%) saturate(350%) hue-rotate(98deg) brightness(89%) contrast(92%);
     transition-duration: 0.5s;
 }
+
 
 .callUs:hover {
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
     transition-duration: 0.5s;
 }
 
+
 .facebookUs:hover {
     filter: invert(33%) sepia(9%) saturate(3250%) hue-rotate(183deg) brightness(98%) contrast(92%);
     transition-duration: 0.5s;
 }
 
+
 .instagramUs:hover {
     filter: invert(45%) sepia(70%) saturate(6748%) hue-rotate(315deg) brightness(88%) contrast(96%);
     transition-duration: 0.5s;
 }
+
 
 #parallaxOne {
     background-image: url(img/weddingSetUp_1.jpg);
@@ -334,26 +391,6 @@ ul {
     background-repeat: no-repeat;
 }
 
-.textBoxOne {
-    background-color: #faf087;
-    padding: 75px 0;
-    padding-left: 12px;
-}
-
-.textBoxOne h1 {
-    font-family: LexendPeta-Regular;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 6vh;
-}
-
-.textBoxOne p {
-    text-align: justify;
-    padding: 0 20%;
-    font-family: Gayathri-Thin;
-    font-size: 18px;
-    letter-spacing: 1.2px;
-}
 
 #parallaxTwo {
     background-image: url(img/weddingSetUp_3.jpg);
@@ -364,35 +401,55 @@ ul {
     background-repeat: no-repeat;
 }
 
-footer {
-    padding: 2em 0;
+
+#parallaxThree {
+    background-image: url(img/md_event_header.png);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.textBoxOne {
+    background-color: #fccbcb;
+    padding: 75px 0;
+    padding-left: 12px;
+}
+
+
+.textBoxOne h1 {
+    font-family: LexendPeta-Regular;
+    font-size: 24px;
     text-align: center;
-    background-color: #faf087;
+    margin-bottom: 6vh;
+}
+
+
+.textBoxOne p {
+    text-align: justify;
+    padding: 0 20%;
     font-family: Gayathri-Thin;
     font-size: 18px;
+    letter-spacing: 1.2px;
 }
+
+
+#serviceList {
+    display: block;
+    margin: 0 auto;
+    width: 1110px;
+}
+
 
 .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-}
-
-.column img {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-.column img:hover {
-    opacity: 1;
-}
 
 .row:after {
     content: "";
@@ -400,15 +457,28 @@ footer {
     clear: both;
 }
 
+
+.column {
+    padding: 10px;
+}
+
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.column img:hover {
+    opacity: 1;
+}
+
+
 .show_tell_container {
     position: relative;
     display: none;
 }
 
-#expandedImg {
-    display: flex;
-    margin: 0 auto;
-}
 
 #imgtext {
     margin: 2% 0;
@@ -423,6 +493,7 @@ footer {
     font-family: Gayathri-Thin;
 }
 
+
 .closebtn {
     position: absolute;
     top: 80px;
@@ -432,10 +503,26 @@ footer {
     cursor: pointer;
 }
 
-#serviceList {
-    display: block;
+
+#expandedImg {
+    display: flex;
     margin: 0 auto;
-    width: 1110px;
 }
+
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+
+footer {
+    padding: 2em 0;
+    text-align: center;
+    background-color: #fccbcb;
+    font-family: Gayathri-Thin;
+    font-size: 18px;
+}
+
 
 }
