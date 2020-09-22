@@ -29,8 +29,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    outline: 3px solid #fdf9cf;
-    border-bottom: 2px solid #fbf4ab;
+    outline: 3px solid #feefef;
+    border-bottom: 2px solid #fddfdf;
 }
 
 
@@ -297,8 +297,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    outline: 3px solid #fdf9cf;
-    border-bottom: 2px solid #fbf4ab;
+    outline: 3px solid #feefef;
+    border-bottom: 2px solid #fddfdf;
 }
 
 
