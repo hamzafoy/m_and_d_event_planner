@@ -115,7 +115,7 @@ ul {
 
 
 #parallaxOne {
-    background-image: url(img/weddingSetUp_1.jpg);
+    background-image: url(img/weddingSetUp_11.jpeg);
     min-height: 400px;
     background-attachment: scroll;
     background-position: center;
@@ -125,7 +125,7 @@ ul {
 
 
 #parallaxTwo {
-    background-image: url(img/weddingSetUp_3.jpg);
+    background-image: url(img/weddingSetUp_10.jpeg);
     min-height: 500px;
     background-attachment: scroll;
     background-position: center;
@@ -136,6 +136,36 @@ ul {
 
 #parallaxThree {
     background-image: url(img/md_event_header.png);
+    min-height: 400px;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#parallaxFour {
+    background-image: url(img/weddingSetUp_12.jpeg);
+    min-height: 400px;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#parallaxFive {
+    background-image: url(img/weddingSetUp_13.jpeg);
+    min-height: 400px;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#parallaxSix {
+    background-image: url(img/weddingSetUp_14.jpeg);
     min-height: 400px;
     background-attachment: scroll;
     background-position: center;
@@ -383,7 +413,7 @@ ul {
 
 
 #parallaxOne {
-    background-image: url(img/weddingSetUp_1.jpg);
+    background-image: url(img/weddingSetUp_11.jpeg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -393,7 +423,7 @@ ul {
 
 
 #parallaxTwo {
-    background-image: url(img/weddingSetUp_3.jpg);
+    background-image: url(img/weddingSetUp_10.jpeg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -404,6 +434,36 @@ ul {
 
 #parallaxThree {
     background-image: url(img/md_event_header.png);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#parallaxFour {
+    background-image: url(img/weddingSetUp_12.jpeg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#parallaxFive {
+    background-image: url(img/weddingSetUp_13.jpeg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#parallaxSix {
+    background-image: url(img/weddingSetUp_14.jpeg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
