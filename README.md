@@ -30,3 +30,4 @@ M&D Event Planners is a website for a Somali event planning group here in Louisv
 ### Notes
 
 * This app utilizes a parallax effect that is observable on the desktop viewport.
+* Visit this website at [MD Event Planner](http://www.mdeventplanner.com/).
